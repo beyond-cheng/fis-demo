@@ -1,0 +1,31 @@
+body{font:14px/1.5 microsoft yahei;padding:0;margin:0;color:#666;min-width:1002px;}
+
+html, button, select, textarea, input {
+  font-family: "Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+}
+html, div, p, h1, h2, h3, h4, h5, h6, blockquote,
+ol, ul, li, dl, dt, dd, 
+form, fieldset, legend, button, input, textarea, 
+pre, code, th, td{margin:0;padding:0;}
+button, input, select, textarea{color:#666;font-family:"微软雅黑"; }
+button,input,select, textarea{font-size:100%;}
+input, img, select {vertical-align:middle;} 
+iframe{display:block}
+.border_btn{border:none; cursor:pointer;}
+h1, h2, h3, h4, h5, h6{ font-size:100%; font-weight:normal;}
+ul, ol, li,submit{list-style:none;border:none}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:500}
+code, kbd, pre, samp{font-family:"microsoft yahei";} 
+small {}
+em,i{font-weight:normal;font-style:normal}
+legend{color:#000000;}
+fieldset,img{border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+th{text-align:inherit;}
+:focus{outline:0;}
+button{border:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after{content:'';}
+a{outline:none; color:#666;text-decoration:none;}
+a.link{ color:#666;}
+a:hover{ text-decoration:none;color:#f45c26;}

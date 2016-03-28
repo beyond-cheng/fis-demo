@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>test</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="/common/css/common.scss">
+    <link rel="stylesheet" type="text/css" href="/css/a.scss">
+</head>
+<body>
+<div class="js-pagectrl sort-page"></div>
+<span class="js-hovertips">hovertips</span>
+<br/><br/><br/>
+<link rel="import" href="common/html/footer.html?__inline">
+
+<script type="text/javascript" src="/common/dep/mod.js" data-loader></script>
+<script type="text/javascript" src="/common/dep/jquery.js" data-loader></script>
+<script type="text/javascript">
+
+    var HoverTips = require('/common/module/hovertips/hovertips.js');
+
+    new HoverTips($('.js-hovertips'), 'hello world');
+
+    require('./js/test/mod.main.js');
+
+</script>
+</body>
+</html>
