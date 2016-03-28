@@ -19,7 +19,7 @@ fis.match('**/_*.scss', {
     })
     .match('**.scss', {
         rExt: '.css',
-        parser: fis.plugin('node-sass-nfd', {})
+        parser: fis.plugin('node-sass', {})
     });
 
 
