@@ -1,5 +1,6 @@
 ### 快速开始
 依赖环境：nodejs：0.10 以上，python：2.7.10
+
 安装 fis3
 > npm install fis3 -g
 
