@@ -5,7 +5,7 @@
 > npm install fis3 -g
 
 安装 fis3 插件
-> npm install fis3-deploy-nfd-deliver fis3-hook-commonjs fis-parser-node-sass-nfd fis parser-imweb-tplv2 fis3-postpackager-loader fis-prepackager-csswrapper -g
+> npm install fis3-deploy-nfd-deliver fis3-hook-commonjs fis-parser-node-sass-nfd fis parser-imweb-tplv2 fis3-postpackager-loader fis-prepackager-csswrapper fis3-command-imweb -g
 
 本地调试：
 > fis3 imweb dev -wc
